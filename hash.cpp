@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+#DEFINE MAXR 10000
+#DEFINE MAXC 10000
+
+class vehicle{
+	int col;
+	int row;
+};
 int main(void)
 {
 	int C,R;
@@ -12,4 +19,4 @@ int main(void)
 		Grid[i]=new int[R];
 	}
 	
-}
+}	
